@@ -1,0 +1,46 @@
+
+
+.mapCard {
+    pointer-events: none;
+    height: 700px;
+}
+
+.active {
+    pointer-events: all;
+}
+
+@media (max-width:1200px) {
+    
+    .mapCard {
+        pointer-events: none;
+        height: 600px;
+    }
+    
+.active {
+    pointer-events: all;
+}
+}
+
+@media (max-width:992px) {
+    .mapCard {
+        pointer-events: none;
+        height: 500px;
+        width: 100%;
+    }
+    
+.active {
+    pointer-events: all;
+}
+}
+
+@media (max-width:576px) {
+    .mapCard {
+        pointer-events: none;
+        height: 400px;
+        width: 100%;
+    }
+    
+.active {
+    pointer-events: all;
+}
+}
